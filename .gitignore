@@ -1,32 +1,17 @@
-# Prerequisites
-*.d
+//Name: Maritza Campoverde
+//Email: Maritza.Campoverde20@myhunter.cuny.edu
+//Date: November 17, 2020
+//A program that writes a C++ program that prints "Hello, World!" on one line and "Hello Hunter College!" on a new line.
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
 
-# Precompiled Headers
-*.gch
-*.pch
+// Your First C++ Program
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+#include <iostream>
+using namespace std;
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+int main() 
+{
+  cout << "Hello World!\n";
+  cout <<"Hello Hunter College! \n";
+  return 0;
+}
